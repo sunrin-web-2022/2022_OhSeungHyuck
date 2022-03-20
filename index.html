@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <a href="#main" title="메인" class="nav-item"></a>
+                <a href="#specialty" title="특산품 안내" class="nav-item"></a>
+                <a href="#event" title="이벤트" class="nav-item"></a>
+                <a href="#review" title="구매후기" class="nav-item"></a>
+            </nav>
+            <div id="main" class="wrapper wrapper1">
+                <img class="left-background" src="./assets/images/main/left-background.png" alt="left-background" />
+                <img class="slogan" src="./assets/images/main/slogan.png" alt="slogan" />
+                <img class="right-background" src="./assets/images/main/right-background.png" alt="right-background" />
+            </div>
+            <div id="specialty" class="wrapper wrapper2"></div>
+            <div id="event" class="wrapper wrapper3">
+                <div class="event-top">
+                    <div class="infoBox">
+                        <h3>경상남도 특산품을 기억하라!</h3>
+                        <p>
+                            같은 카드 찾기 게임에 3일 연속 이벤트에 참여해 주신 분 중 100분을 추첨하여 전<br />
+                            통시장 및 상점에서 사용 가능한 “온누리 상품권 5,000원권”을 보내 드립니다. 경상<br />
+                            남도 특산품도 알아보고 재미있는 게임도 즐길 수 있는 이번 이벤트에 많은 참여 바<br />
+                            랍니다.
+                        </p>
+                        <h3>이벤트 참여 및 경품 안내</h3>
+                        <ul>
+                            <li>참여방법 : 3일 연속으로 아래의 같은 카드 찾기 게임 참여하기</li>
+                            <li>경품안내 : 온누리 상품권 5,000원권</li>
+                            <li>당첨대상 : 3일 연속 게임 이벤트에 참여한 분 중 100명 추첨</li>
+                        </ul>
+                    </div>
+                    <div class="stamp-container">
+                        <div class="stamp-box">
+                            <div class="stamp-date">2022-03-19</div>
+                            <div class="stamp">
+                                <img src="./assets/images/event/stamp.png" alt="stamp" />
+                            </div>
+                        </div>
+                        <div class="stamp-box">
+                            <div class="stamp-date"></div>
+                            <div class="stamp"></div>
+                        </div>
+                        <div class="stamp-box">
+                            <div class="stamp-date"></div>
+                            <div class="stamp"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-game-container">
+                    <div class="card-game">
+                    </div>
+                    <div class="card-game-other">
+                        <div class="card-game-info">
+                            <div class="remain-time">남은 시간: <span>1분 30초</span></div>
+                            <div class="find-card-count">찾은 카드: <span>0</span>개</div>
+                        </div>
+                        <div class="card-game-button">
+                            <button id="play-card-game" class="btn btn-primary">게임시작</button>
+                            <!-- <button class="btn btn-outline-primary">다시하기</button> -->
+                            <button id="hint-card-game" class="btn btn-primary">힌트보기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="review" class="wrapper wrapper4">
+                <div class="infoBox absolute">
+                    <h3>경상남도 특산품의 소중한 구매 후기를 찾습니다.</h3>
+                    <p>
+                        경상남도 특산품을 사랑하는 고객님의 소중한 경험을 공유함으로써, 지역 특산품을<br />
+                        홍보하고 판매를 증진시켜, 경상남도 농가의 소득 증대는 물론, 품질이 좋은 특산품<br />
+                        을 보다 많은 고객분들과 공유하기 위해 구매 후기를 모집 합니다.
+                    </p>
+                </div>
+                <div class="review-box">
+                    <div class="review-button">
+                        <button class="btn btn-primary">후기작성</button>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>사진</th>
+                                <th>별점</th>
+                                <th>이름(작성자)</th>
+                                <th>구매품</th>
+                                <th>구매처</th>
+                                <th>구매일</th>
+                                <th>내용</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="./assets/images/navItem/1-1.png" alt="" /></td>
+                                <td>★★★★★</td>
+                                <td>홍길동</td>
+                                <td>사과</td>
+                                <td>거창군</td>
+                                <td>2022-03-19</td>
+                                <td class="review-content">50자만 잘라서 보임</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="copyright">Copyright (C) Gyeongsangbuk-do. All Rights Reserved.</p>
+            </div>
+        </div>
+        <script src="./assets/js/jquery-3.6.0.js"></script>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
